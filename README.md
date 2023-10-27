@@ -1,6 +1,6 @@
 # Swift Algorithms from "Grokking Algorithms" Book
 
-This repository contains Swift implementations of various algorithms introduced in the book "Grokking Algorithms" by Aditya Bhargava. These algorithms cover a wide range of topics, from basic sorting and searching algorithms to more advanced data structures and algorithms.
+This repository contains Swift implementations of various algorithms introduced in the book ["Grokking Algorithms" by Aditya Bhargava](https://github.com/egonSchiele/grokking_algorithms). These algorithms cover a wide range of topics, from basic sorting and searching algorithms to more advanced data structures and algorithms.
 
 ## Table of Contents
 
@@ -17,7 +17,7 @@ Feel free to explore the code and use it as a reference for learning and impleme
 
 You can clone this repository to your local machine and run the Swift code examples to understand how the algorithms work
 
-## Contribution
+
 
 
 
