@@ -7,7 +7,6 @@ This repository contains Swift implementations of various algorithms introduced 
 - [Binary Search](https://github.com/chxenia/algorithms/tree/main/BinarySearch): An implementation of the binary search algorithm for sorting an array.
 - [Selection Sort](https://github.com/chxenia/algorithms/tree/main/SelectionSort): An implementation of the selection sort algorithm for sorting an array.
 
-(Add more algorithms to the table of contents as you add them to the repository.)
 
 ## Getting Started
 
