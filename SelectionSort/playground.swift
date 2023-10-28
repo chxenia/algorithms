@@ -1,6 +1,7 @@
 import Foundation
+import Foundation
 
-func findSmallest(_ arr: [Int]) -> Int {
+func findSmallest<T: Comparable>(_ arr: [T]) -> Int {
     var smallest = arr[0]
     var smallestIndex = 0
 
@@ -14,8 +15,11 @@ func findSmallest(_ arr: [Int]) -> Int {
     return smallestIndex
 }
 
-func selectionSort(_ arr: [Int]) -> [Int] {
-    var newArr: [Int] = []
+func selectionSort<T: Comparable>(_ arr: [T]) -> [T] {
+
+    guard arr.count > 1 else { return arr }
+    
+    var newArr: [T] = []
     var mutableArr = arr
     for _ in 0..<arr.count {
         var smallestIndex = findSmallest(mutableArr)
@@ -27,6 +31,4 @@ func selectionSort(_ arr: [Int]) -> [Int] {
 }
 
 let arr = [3, 4, 5, 0, -1, 10000]
-print(selectionSort(arr))
-
-// prints [-1, 0, 3, 4, 5, 10000]
+print(selectionSort(arr)) // =>  prints [-1, 0, 3, 4, 5, 10000]
